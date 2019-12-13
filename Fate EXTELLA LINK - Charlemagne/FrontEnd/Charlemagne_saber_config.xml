@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_config -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/13/2018 2:07:25 PM -->
+<GameData>
+	<DuplicateLeaders>
+		<Row Domain="StandardPlayers" LeaderType="LEADER_CHARLEMAGNE_SABER" OtherLeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA"/>
+	</DuplicateLeaders>
+<Players>
+	<Row>
+		<Domain>StandardPlayers</Domain>
+		
+		<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+		<LeaderType>LEADER_CHARLEMAGNE_SABER</LeaderType>
+		
+		<!-- Config Text -->
+		<CivilizationName>LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_NAME</CivilizationName>
+		<CivilizationIcon>ICON_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationIcon>
+
+		<!-- Config Text -->
+		<LeaderName>LOC_LEADER_CHARLEMAGNE_SABER_BLUE_NAME</LeaderName>
+		<LeaderIcon>ICON_LEADER_CHARLEMAGNE_SABER</LeaderIcon>
+		
+		<!-- Mod Text -->
+		<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_NAME</CivilizationAbilityName>
+		<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_DESCRIPTION</CivilizationAbilityDescription>
+		<CivilizationAbilityIcon>ICON_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationAbilityIcon>
+
+		
+		<!-- Config Text-->
+		<LeaderAbilityName>LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_NAME</LeaderAbilityName>
+		<LeaderAbilityDescription>LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_DESCRIPTION</LeaderAbilityDescription>
+		<LeaderAbilityIcon>ICON_LEADER_CHARLEMAGNE_SABER</LeaderAbilityIcon>
+		
+		<Portrait>LEADER_CHARLEMAGNE_SABER_BLUE_PORTRAIT</Portrait>
+		
+	</Row>
+</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER</LeaderType>
+			<Type>WONDER_TOURISM</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION</Description>
+			<Icon>ICON_CIVILIZATION_FRANCE</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER</LeaderType>
+			<Type>IMPERIAL_FREE_CITIES</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_DESCRIPTION</Description>
+			<Icon>ICON_CIVILIZATION_GERMANY</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER</LeaderType>
+			<Type>ALL_ROADS_TO_ROME</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_DESCRIPTION</Description>
+			<Icon>ICON_CIVILIZATION_ROME</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER</LeaderType>
+			<Type>BUILDING_ELECTRONICS_FACTORY</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY_NAME</Name>
+			<Description>LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ELECTRONICS_FACTORY</Icon>
+			<SortIndex>40</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER</LeaderType>
+			<Type>IMPROVEMENT_CHATEAU</Type>
+			<Name>LOC_IMPROVEMENT_CHATEAU_NAME</Name>
+			<Description>LOC_IMPROVEMENT_CHATEAU_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_CHATEAU</Icon>
+			<SortIndex>50</SortIndex>
+		</Row>
+	</PlayerItems>
+
+
+	<Players>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderType>
+
+			<!-- Config Text -->
+			<CivilizationName>LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationIcon>
+
+			<!-- Config Text -->
+			<LeaderName>LOC_LEADER_CHARLEMAGNE_SABER_RED_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderIcon>
+
+			<!-- Mod Text -->
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationAbilityIcon>
+
+
+			<!-- Config Text-->
+			<LeaderAbilityName>LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderAbilityIcon>
+
+			<Portrait>LEADER_CHARLEMAGNE_SABER_RED_PORTRAIT</Portrait>
+
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderType>
+			<Type>WONDER_TOURISM</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION</Description>
+			<Icon>ICON_CIVILIZATION_FRANCE</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderType>
+			<Type>IMPERIAL_FREE_CITIES</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_DESCRIPTION</Description>
+			<Icon>ICON_CIVILIZATION_GERMANY</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderType>
+			<Type>ALL_ROADS_TO_ROME</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_DESCRIPTION</Description>
+			<Icon>ICON_CIVILIZATION_ROME</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderType>
+			<Type>BUILDING_ELECTRONICS_FACTORY</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY_NAME</Name>
+			<Description>LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ELECTRONICS_FACTORY</Icon>
+			<SortIndex>40</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderType>
+			<Type>IMPROVEMENT_CHATEAU</Type>
+			<Name>LOC_IMPROVEMENT_CHATEAU_NAME</Name>
+			<Description>LOC_IMPROVEMENT_CHATEAU_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_CHATEAU</Icon>
+			<SortIndex>50</SortIndex>
+		</Row>
+	</PlayerItems>
+	
+	
+</GameData>

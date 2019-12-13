@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_loc_frontend_base -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/13/2018 10:11:00 PM -->
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_LEADER_CHARLEMAGNE_SABER_NAME" >
+			<Text>Charlemagne</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_CHARLEMAGNE_SABER_RED_NAME" >
+			<Text>Charlemagne(Black Knight)</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_CHARLEMAGNE_SABER_BLUE_NAME" >
+			<Text>Charlemagne(Holy Knight)</Text>
+		</Row>		
+		<Row Tag="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_NAME" >
+			<Text>Joyeuse Ordre</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_DESCRIPTION" >
+			<Text>Extra one military and one economic policy slot[NEWLINE]Every round +8 [ICON_Envoy] point[NEWLINE]Get [ICON_GreatPerson] more 100%[NEWLINE]All unit +4 [ICON_Strength](Extra +8 for barbarian)[NEWLINE]All trade +3 [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science][NEWLINE]All city +30% [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science]</Text>
+		</Row>
+		
+		<!--
+		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_NAME" >
+			<Text>Cool Frankish Kingdom</Text>
+		</Row>
+		-->
+
+		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_NAME" >
+			<Text>Charlemagne's "Francia"</Text>
+		</Row>
+
+
+		<!--
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_NAME" >
+			<Text>Cool "Carolingian Style"</Text>
+		</Row>
+		-->
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_NAME" >
+			<Text>Charle Patricius</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_DESCRIPTION" >
+			<Text>Have Germany, France, Rome's national culture.[NEWLINE]Can build Japan and France's special building.[NEWLINE]No special unit.</Text>
+		</Row>
+
+	</BaseGameText>
+
+</GameData>

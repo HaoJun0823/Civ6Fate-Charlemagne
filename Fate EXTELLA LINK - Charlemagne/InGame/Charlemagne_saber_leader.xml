@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_leader -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/13/2018 11:03:06 AM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_CHARLEMAGNE_SABER" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_CHARLEMAGNE_SABER_EXTRA" Kind="KIND_LEADER"/>
+		<!--
+		<Row Type="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" Kind="KIND_TRAIT"/>
+		-->
+
+		<!-- Unique Leader Trait -->
+
+		<!-- Saber | 剑阶 -->
+		<!-- 剑士战斗力强化 -->
+
+		<!-- <Row Type="TRAIT_CHARLEMAGNE_SABER_LEADER_SABER" Kind="KIND_TRAIT"/> -->
+
+		<!-- Riding & Magic Resistance A | 骑乘 & 对魔力 A -->
+		<!-- 额外获得一个军事槽和贸易槽 -->
+		<!-- <Row Type="TRAIT_CHARLEMAGNE_SABER_LEADER_CLASS_SKILLS" Kind="KIND_TRAIT"/> -->
+
+		<!-- Holy Knight Emperor EX | 圣骑士帝 EX--> -->
+		<!-- 近战单位增加5点战斗力，远程单位增加10%生产力。 -->
+		<!-- <Row Type="TRAIT_CHARLEMAGNE_SABER_LEADER_HOLY_KNIGHT_EMPEROR" Kind="KIND_TRAIT"/> -->
+
+		<!-- Mana Burst (Light) A |魔力放出（光）A -->
+		<!-- 信仰值获得速度加快 -->
+		<!-- <Row Type="TRAIT_CHARLEMAGNE_SABER_LEADER_MANA_BURST_LIGHT" Kind="KIND_TRAIT"/> -->
+
+		<!-- Over the Royal Road C | 王道踏破 C  -->
+		<!-- 每一个附庸国提高文化产出10% -->
+		<!-- <Row Type="TRAIT_CHARLEMAGNE_SABER_LEADER_OVER_THE_ROYAL_ROAD" Kind="KIND_TRAIT"/> -->
+
+		<!-- Charle Patricius |吾转瞬即逝的荣光 | 我が儚き栄光よ -->
+		<!-- 城市远程战斗力提高15，所有城市额外获得领土。 -->
+		<!--<Row Type="TRAIT_CHARLEMAGNE_SABER_LEADER_CHARLE_PATRICIUS" Kind="KIND_TARIT"/> -->
+
+		<!-- 上面的都废了-->
+
+		<!-- Joyeuse Ordre | 展示王勇遍历巡世的十二辉剑 | 王勇を示せ、遍く世を巡る十二の輝剣 -->
+		<!-- 给予一个经济卡槽和一个军事卡槽， -->
+
+		<Row Type="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" Kind="KIND_TRAIT"/>
+	</Types>
+
+
+
+
+	<!-- Config Text -->
+	<Leaders>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER" NAME="LOC_LEADER_CHARLEMAGNE_SABER_BLUE_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male" />
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" NAME="LOC_LEADER_CHARLEMAGNE_SABER_RED_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male" />
+	</Leaders>
+
+	<!-- Mod Text -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER" Quote="LOC_LEADER_CHARLEMAGNE_SABER_QUOTE"/>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" Quote="LOC_LEADER_CHARLEMAGNE_SABER_QUOTE"/>
+	</LeaderQuotes>
+
+	
+	<LeaderTraits>
+
+		<!--
+	<Row LeaderType="LEADER_CHARLEMAGNE_SABER" TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_SABER"/>
+	<Row LeaderType="LEADER_CHARLEMAGNE_SABER" TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_CLASS_SKILLS"/>	
+	<Row LeaderType="LEADER_CHARLEMAGNE_SABER" TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_HOLY_KNIGHT_EMPEROR"/>
+	<Row LeaderType="LEADER_CHARLEMAGNE_SABER" TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_MANA_BURST_LIGHT"/>
+	<Row LeaderType="LEADER_CHARLEMAGNE_SABER" TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_OVER_THE_ROYAL_ROAD"/>	
+	<Row LeaderType="LEADER_CHARLEMAGNE_SABER" TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_CHARLE_PATRICIUS"/>
+	-->
+
+
+
+
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER" TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE"/>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE"/>
+
+
+	</LeaderTraits>
+
+	<Traits>
+
+		<!--
+		<Row TraitType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" NAME="LOC_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" Description="LOC_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DESCRIPTION"/>
+		-->
+		
+
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" NAME="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_NAME" Description="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_DESCRIPTION"/>
+		<!--
+	<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" NAME="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_NAME" Description="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_DESCRIPTION"/>
+	<Row TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_CHARLE_PATRICIUS" NAME="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_CHARLE_PATRICIUS_NAME" Description="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_CHARLE_PATRICIUS_DESCRIPTION"/>
+	<Row TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_OVER_THE_ROYAL_ROAD" NAME="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_OVER_THE_ROYAL_ROAD_NAME" Description="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_OVER_THE_ROYAL_ROAD_DESCRIPTION"/>
+	<Row TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_MANA_BURST_LIGHT" NAME="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_MANA_BURST_LIGHT_NAME" Description="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_MANA_BURST_LIGHT_DESCRIPTION"/>
+	<Row TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_HOLY_KNIGHT_EMPEROR" NAME="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_HOLY_KNIGHT_EMPEROR_NAME" Description="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_HOLY_KNIGHT_EMPEROR_DESCRIPTION"/>
+	<Row TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_CLASS_SKILLS" NAME="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_CLASS_SKILLS_NAME" Description="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_CLASS_SKILLS_DESCRIPTION"/>
+	<Row TraitType="TRAIT_CHARLEMAGNE_SABER_LEADER_SABER" NAME="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_SABER_NAME" Description="LOC_TRAIT_CHARLEMAGNE_SABER_LEADER_SABER_DESCRIPTION"/>
+	-->
+	</Traits>
+
+	<TraitModifiers>
+
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_GREAT"/>
+		
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_SLOT_MILITARY"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_SLOT_ECONOMIC"/>
+
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH"/>
+
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_GOLD"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FOOD"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_SCIENCE"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_CULTURE"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_PRODUCTION"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FAITH"/>
+
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_ENVOYS"/>
+
+		<!-- NOT EFFECT -->
+
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_COMBAT"/>
+
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_EXTRA_COMBAT"/>
+
+
+	</TraitModifiers>
+
+
+
+	<Modifiers>
+
+		<!-- GREAT PEOPLE -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_GREAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+
+		<!-- SLOT -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_SLOT_MILITARY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_SLOT_ECONOMIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+
+
+
+		<!-- CITY -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+		<!-- Trade -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+
+
+
+		<!-- ENVOYS -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_ENVOYS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+
+
+
+		<!-- COMBAT -->
+
+		<!-- NOT EFFECT -->
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_EXTRA_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+		<!-- Great People -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_GREAT</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GREAT_PEOPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_GREAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+
+		<!-- Slot -->
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_SLOT_MILITARY</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_SLOT_ECONOMIC</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
+		</Row>
+
+		<!-- City -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+
+		<!-- Trade -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		<!-- ENVOYS -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_ENVOYS</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+
+
+		<!-- COMBAT -->
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_EXTRA_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+
+
+
+	</ModifierArguments>
+
+	<ModifierStrings>
+
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_GREAT" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_GREAT_DESCRIPTION"/>
+
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_ENVOYS" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_ENVOYS_DESCRIPTION"/>
+
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_COMBAT" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_COMBAT_DESCRIPTION"/>
+
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_EXTRA_COMBAT" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_EXTRA_COMBAT_DESCRIPTION"/>
+
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_SLOT_MILITARY" Context="Preview" Text="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_NAME"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_SLOT_ECONOMIC" Context="Preview" Text="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_NAME"/>
+
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_DESCRIPTION"/>
+
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_GOLD" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FOOD" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_SCIENCE" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_CULTURE" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_PRODUCTION" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FAITH" Context="Preview" Text="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_DESCRIPTION"/>
+
+
+	</ModifierStrings>
+
+
+	<!-- Preload -->
+	
+	<Types>
+		<Row Type="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+	</Traits>
+
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX"/>
+		
+		<!-- Extra -->
+		<!--
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_CIVILIZED"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_CULTURED"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_DEVOUT"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_FUN_LOVING"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_POPULOUS"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_STANDING_ARMY"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_TECHNOPHILE"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_INDUSTRIALIST"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_MONEY_GRUBBER"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_NUKE_LOVER"/>
+		-->
+
+		<!--
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_PREFER_POPULATION"/>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" TraitType="TRAIT_AGENDA_PREFER_HAPPINESS"/>
+		-->
+		
+	</AgendaTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" ModifierId="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" ModifierId="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FRIEND_DENOUNCED</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>18</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_CHARLEMAGNE_SABER_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DECLARED_FRIEND</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-18</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_CHARLEMAGNE_SABER_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND</Value>
+		</Row>		
+	</ModifierArguments>
+	
+	<Agendas>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" Name="LOC_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" Description="LOC_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DESCRIPTION"/>
+	</Agendas>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>		
+	</ModifierStrings>
+
+	<!-- USE GAME DATA FAILD -->
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER" AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX"/>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX"/>
+	</HistoricalAgendas>
+
+
+	<!-- OLD
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_BACKSTAB_AVERSE"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_BIG_STICK_POLICY"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_PEACEKEEPER"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_FUN_LOVING"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_STANDING_ARMY"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_POPULOUS"/>		
+	</ExclusiveAgendas>
+	-->
+
+	
+	<!-- 城邦保护者 文明人 文化人 虔诚的 快乐至上 人口稠密 常备军 技术爱好者 重工业 财迷 核武器带来的快乐 -->
+	<!-- Main Include
+	
+	<ExclusiveAgendas>
+	
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_CIVILIZED"/>
+
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_DEVOUT"/>
+		
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_FUN_LOVING"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_POPULOUS"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_STANDING_ARMY"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_TECHNOPHILE"/>
+
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_INDUSTRIALIST"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_MONEY_GRUBBER"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_NUKE_LOVER"/>		
+		
+	</ExclusiveAgendas>
+	-->
+	<ExclusiveAgendas>
+
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_DEVOUT"/>
+		<Row AgendaOne="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" AgendaTwo="AGENDA_TECHNOPHILE"/>
+
+	</ExclusiveAgendas>
+	
+	<!-- Shouldn't -->
+	<!--
+	<RandomAgendas>
+		<Row AgendaType="AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" GameLimit="1"/>
+	</RandomAgendas>
+	-->
+
+
+	
+	
+
+
+
+	<!-- MAYBE DON'T NEED IT -->
+
+	<AgendaPreferredLeaders>
+		<Row AgendaType="AGENDA_CULTURED" LeaderType="LEADER_CHARLEMAGNE_SABER" PercentageChance="50"/>
+		<Row AgendaType="AGENDA_DEVOUT" LeaderType="LEADER_CHARLEMAGNE_SABER" PercentageChance="30"/>
+		<Row AgendaType="AGENDA_TECHNOPHILE" LeaderType="LEADER_CHARLEMAGNE_SABER" PercentageChance="20"/>
+
+		<Row AgendaType="AGENDA_CULTURED" LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" PercentageChance="50"/>
+		<Row AgendaType="AGENDA_DEVOUT" LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" PercentageChance="30"/>
+		<Row AgendaType="AGENDA_TECHNOPHILE" LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" PercentageChance="20"/>
+
+	</AgendaPreferredLeaders>
+
+	
+	<FavoredReligions>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" ReligionType="RELIGION_CATHOLICISM"/>
+	</FavoredReligions>
+
+
+	<AiListTypes>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" />
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" />
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" />
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" />
+		
+	</AiListTypes>
+
+	<AiLists>
+
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" LeaderType="LEADER_CHARLEMAGNE_SABER" System="Buildings"/>
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" LeaderType="LEADER_CHARLEMAGNE_SABER" System="Civics"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" LeaderType="LEADER_CHARLEMAGNE_SABER" System="Technologies"/>
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" LeaderType="LEADER_CHARLEMAGNE_SABER" System="UnitPromotionClasses"/>
+
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" System="Buildings"/>
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" System="Civics"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" System="Technologies"/>
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" System="UnitPromotionClasses"/>
+		
+	</AiLists>
+
+	<AiFavoredItems>
+
+		<!--  王权神授 探索 保护地球 防御战术 外交部门 核计划 游戏和娱乐 对外贸易  -->
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" Item="CIVIC_DIVINE_RIGHT" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" Item="CIVIC_EXPLORATION" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" Item="CIVIC_CONSERVATION" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" Item="CIVIC_DEFENSIVE_TACTICS" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" Item="CIVIC_DIPLOMATIC_SERVICE" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" Item="CIVIC_NUCLEAR_PROGRAM" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" Item="CIVIC_GAMES_RECREATION" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_CIVICS" Item="CIVIC_FOREIGN_TRADE" Favored="true"/>
+
+		<!--  城堡 电脑 电力 骑马 卫星 经济 联合作战 炼铁术  -->
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" Item="TECH_CASTLES" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" Item="TECH_COMPUTERS" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" Item="TECH_ELECTRICITY" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" Item="TECH_HORSEBACK_RIDING" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" Item="TECH_MILITARY_TACTICS" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" Item="TECH_SATELLITES" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" Item="TECH_ECONOMICS" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" Item="TECH_COMBINED_ARMS" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_TECHS" Item="TECH_IRON_WORKINGS" Favored="true"/>
+
+		<!--  罗马斗兽场 电子厂 神谕 巨石阵 救世基督像 埃菲尔铁塔 紫禁城 中世纪城墙 空中花园 圣米歇尔山 兵马俑 巨像 大灯塔 圣索菲亚大教堂  -->
+
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_COLOSSEUM" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_ELECTRONICS_FACTORY" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_ORACLE" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_STONEHENGE" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_CRISTO_REDENTOR" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_EIFFEL_TOWER" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_FORBIDDEN_CITY" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_BUILDING_CASTLE" Favored="true"/>
+
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_HANGING_GARDENS" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_MONT_ST_MICHEL" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_TERRACOTTA_ARMY" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_COLOSSUS" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_GREAT_LIGHTHOUSE" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_BIG_BEN" Favored="true"/>
+		<Row ListType="CHARLEMAGNE_SABER_BUILDINGS" Item="BUILDING_HAGIA_SOPHIA" Favored="true"/>
+
+		<!-- 轻骑兵 重骑兵 近战 宗教传播 海军远程攻击 天空斗士 空中轰炸 远程攻击  -->
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" Item="PROMOTION_CLASS_LIGHT_CAVALRY" Value="1"/>
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" Item="PROMOTION_CLASS_HEAVY_CAVALRY" Value="1"/>
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" Item="PROMOTION_CLASS_MELEE" Value="1"/>
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" Item="PROMOTION_CLASS_RANGED" Value="1"/>
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" Item="PROMOTION_CLASS_APOSTLE" Value="1"/>
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" Item="PROMOTION_CLASS_NAVAL_RANGED" Value="2"/>
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" Item="PROMOTION_CLASS_AIR_FIGHTER" Value="1"/>
+		<Row ListType="CHARLEMAGNE_SABER_UNITS" Item="PROMOTION_CLASS_AIR_BOMBER" Value="1"/>
+
+	</AiFavoredItems>
+	
+	<!-- AGENDA -->
+	<AiListTypes>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesWonder"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesSpy"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesNuke"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesNukeUse"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesArmy"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesProtect"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesBandit"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesCityState"/>
+	</AiListTypes>
+	<AILists>
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesWonder" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesSpy" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesNuke" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesNukeUse" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesArmy" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesProtect" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesBandit" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesCityState" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesProtect" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+		
+	</AILists>
+
+	<AiFavoredItems>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_FORMAL_WAR" Favored="false"/>
+		<!--宣布正式战争-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace" Item="DIPLOACTION_JOINT_WAR" Favored="false"/>
+		<!--战争同盟-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="false"/>
+		<!--宣布突袭战争-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_COLONIAL_WAR" Favored="false"/>
+		<!--宣布殖民战争-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_TERRITORIAL_WAR" Favored="false"/>
+		<!--宣布领土扩张战争-->
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_HOLY_WAR" Favored="true"/>
+		<!--宣布圣战-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_LIBERATION_WAR" Favored="true"/>
+		<!--宣布解放战争-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesProtect" Item="DIPLOACTION_DECLARE_RECONQUEST_WAR" Favored="true"/>
+		<!--宣布领土夺回战争-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesProtect" Item="DIPLOACTION_DECLARE_PROTECTORATE_WAR" Favored="true"/>
+		
+		<!--宣布保卫城邦战争-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV" Favored="false"/>		
+		
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesWonder" Item="PSEUDOYIELD_WONDER" Value="250"/>
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_GENERAL" Value="100"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="100"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_MERCHANT" Value="100"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_PROPHET" Value="100"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_WRITER" Value="100"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ARTIST" Value="100"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_MUSICIAN" Value="100"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesSpy" Item="DIPLOACTION_KEEP_PROMISE_DONT_SPY" Favored="true"/> <!-- ??? -->
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesNuke" Item="PSEUDOYIELD_NUCLEAR_WEAPON" Value="100"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesNukeUse" Item="DIPLOACTION_USE_NUCLEAR_WEAPON" Favored="true"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesArmy" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="50"/>
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesArmy" Item="PSEUDOYIELD_STANDING_ARMY_VALUE" Value="25"/>
+
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesBandit" Item="PSEUDOYIELD_CLEAR_BANDIT_CAMPS" Value="100"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesCityState" Item="PSEUDOYIELD_INFLUENCE" Value="100"/>
+
+
+	</AiFavoredItems>
+</GameData>
+

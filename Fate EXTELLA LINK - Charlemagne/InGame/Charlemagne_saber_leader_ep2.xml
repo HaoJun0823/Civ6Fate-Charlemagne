@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_leader_ep2 -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2019/2/14 16:00:20 -->
+<GameData>
+	<AiListTypes>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions"/>
+	</AiListTypes>
+	<AiLists>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="Resolutions"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="Discussions"/>
+		
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_DIPLOVICTORY" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_LUXURY" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_TRADE_TREATY" Favored="true"/>
+		
+		<!--
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_WORLD_RELIGION" Favored="true"/>
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_MERCENARY_COMPANIES" Favored="true"/>
+		-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_ARMS_CONTROL" Favored="false"/>
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_HERITAGE_ORG" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_WORLD_IDEOLOGY" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_URBAN_DEVELOPMENT" Favored="true"/>
+
+		<!--
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_BORDER_CONTROL" Favored="true"/>
+		-->
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_PUBLIC_WORKS" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_PATRONAGE" Favored="true"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_GLOBAL_ENERGY_TREATY" Favored="false"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_SOVEREIGNTY" Favored="true"/>
+		<!--
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_MIGRATION_TREATY" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_DEFORESTATION_TREATY" Favored="true"/>
+		-->
+		
+
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_PUBLIC_RELATIONS" Favored="false"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_ESPIONAGE_PACT" Favored="false"/>
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_MILITARY_ADVISORY" Favored="false"/>
+		
+		
+		<!--
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_POLICY_TREATY" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_TREATY_ORGANIZATION" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesResolutions" Item="WC_RES_GOVERNANCE_DOCTRINE" Favored="true"/>
+		-->
+
+
+		
+		
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_MILITARY" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_CITY_STATE" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_RELIGIOUS" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_NUCLEAR" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_BACKSTAB" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_REQUEST_AID" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_NOBEL_PRIZE_LITERATURE" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_NOBEL_PRIZE_PEACE" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_NOBEL_PRIZE_PHYSICS" Favored="true"/>
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_CLIMATE_ACCORDS" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_WORLD_GAMES" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_SPACE_STATION" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_WORLD_FAIR" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesDiscussions" Item="WC_EMERGENCY_MILITARY_AID_REQUEST" Favored="true"/>
+
+		
+		
+	</AiFavoredItems>
+
+</GameData>

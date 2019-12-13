@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_loc_ingame_base -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/14/2018 5:28:24 PM -->
+<GameData>
+	<BaseGameText>
+
+		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_DESCRIPTION" >
+			<Text>Handsome "Frankish Kingdom"</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_ADJECTIVE" >
+			<Text>"Frankish"</Text>
+		</Row>
+
+<!--
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_CAPITAL" >
+			<Text>Charle Patricius</Text>
+		</Row>
+-->
+
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_REAL_CAPITAL" >
+			<Text>Charle's Aachen</Text>
+		</Row>
+
+
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_1" >
+			<Text>EMIYA's Fuyuki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_2" >
+			<Text>Joan's Orlean</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_3" >
+			<Text>Drake's Oceanus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_4" >
+			<Text>Nero's Rome</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_5" >
+			<Text>Holmes's London</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_6" >
+			<Text>Edison's America</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_7" >
+			<Text>Arturia's Camelot</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_8" >
+			<Text>Gilgamesh's Babylonia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_9" >
+			<Text>Solomon's Temple</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_10" >
+			<Text>Iskandar's Macedonia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_11" >
+			<Text>Ozymandias's Egypt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_12" >
+			<Text>Napoleon's France</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_13" >
+			<Text>Wu Zetian's China</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_14" >
+			<Text>David's Israel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_15" >
+			<Text>Darius Ⅲ's Persia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_16" >
+			<Text>Semiramis's Assyria</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_17" >
+			<Text>Artila's XiongNu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_18" >
+			<Text>Ereshkigal's ghostdom</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_19" >
+			<Text>BB's SE.RA.PH</Text>
+		</Row>
+
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_1" >
+			<Text>Roland</Text>
+			<!-- 罗兰 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_2" >
+			<Text>Rinaldo</Text>
+			<!-- 李拿度 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_3" >
+			<Text>Turpin</Text>
+			<!-- 托宾 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_4" >
+			<Text>Malagigi</Text>
+			<!-- 马拉吉吉 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_5" >
+			<Text>Ogier</Text>
+			<!-- 奥吉尔 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_6" >
+			<Text>Solomon</Text>
+			<!-- 所罗门 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_7" >
+			<Text>Astolpho</Text>
+			<!-- 阿斯托尔福 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_8" >
+			<Text>Favaria</Text>
+			<!-- 法华利亚 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_9" >
+			<Text>Fierambras</Text>
+			<!-- 斐兰巴拉斯 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_10" >
+			<Text>Florismart</Text>
+			<!-- 弗雷罗斯马特 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_11" >
+			<Text>Oliver</Text>
+			<!-- 奥利弗 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_12" >
+			<Text>Ganelon</Text>
+			<!-- 加尼隆 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_1" >
+			<Text>Himiltruede</Text>
+			<!-- 赫罗特鲁德 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_2" >
+			<Text>Desiderata</Text>
+			<!-- 德西德里他 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_3" >
+			<Text>Hildigard</Text>
+			<!-- 希尔迪加尔德 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_4" >
+			<Text>Fastrada</Text>
+			<!-- 法斯特拉达 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_5" >
+			<Text>Liutgard</Text>
+			<!-- 柳特加尔德 -->
+		</Row>
+		
+	<!-- Modern -->
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_1" >
+			<Text>EMIYA</Text>
+			<!-- 卫宫 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_2" >
+			<Text>Robin Hood</Text>
+			<!-- 罗宾汉 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_3" >
+			<Text>Arjuna</Text>
+			<!-- 阿周那 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_4" >
+			<Text>Lancelot</Text>
+			<!-- 兰斯洛特 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_5" >
+			<Text>Cú Chulainn</Text>
+			<!-- 库·丘林 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_6" >
+			<Text>Li Shu Wen</Text>
+			<!-- 李书文 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_7" >
+			<Text>Lu Bu Fengxian</Text>
+			<!-- 吕布奉先 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_8" >
+			<Text>Gilgamesh</Text>
+			<!-- 吉尔伽美什 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_9" >
+			<Text>Iskandar</Text>
+			<!-- 伊斯坎达尔 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_10" >
+			<Text>Darius III Codomannus</Text>
+			<!-- 大流士三世 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_11" >
+			<Text>Gilles de Rais</Text>
+			<!-- 吉尔·德·雷 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_12" >
+			<Text>Archimedes</Text>
+			<!-- 阿基米德 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_1" >
+			<Text>Nero Claudius</Text>
+			<!-- 尼禄·克劳狄乌斯 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_2" >
+			<Text>Tamamo no Mae</Text>
+			<!-- 玉藻前 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_3" >
+			<Text>Artilla</Text>
+			<!-- 阿提拉 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_4" >
+			<Text>Altria Pendragon</Text>
+			<!-- 阿尔托莉雅·潘德拉贡 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_5" >
+			<Text>Erzsebet Bathory</Text>
+			<!-- 伊丽莎白·巴托里 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_6" >
+			<Text>Jeanne d'Arc</Text>
+			<!-- 贞德 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_7" >
+			<Text>Erzsebet Bathory</Text>
+			<!-- 斯卡哈 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_8" >
+			<Text>Francis Drake</Text>
+			<!-- 弗朗西斯·德雷克 -->
+		</Row>
+		
+		<!-- Over -->
+		
+
+		<Row Tag="LOC_CIVINFO_CHARLEMAGNE_SABER_LOCATION" >
+			<Text>SE.RA.PH</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CHARLEMAGNE_SABER_SIZE" >
+			<Text>Unable to calculate size</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CHARLEMAGNE_SABER_POPULATION" >
+			<Text>Unable to calculate population</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CHARLEMAGNE_SABER_CAPITAL" >
+			<Text>Unable to calculate capital</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_CHARLEMAGNE_SABER_QUOTE" >
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_CHARLEMAGNE_SABER" >
+			<Text>A carefree young man who somewhat bluntly says that he himself is not very suitable to be king. He places an aesthetic standard and behaviour on “whether this is cool or uncool”, even if that will be a handicap for the Master, or even a handicap to himself… Despite this personality flaw, Astolfo describes Charlemagne as a conscientiously benevolent king that would weep and laugh with his people and also help those who are in need.</Text>
+		</Row>	
+		
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Ok, good! Let's take a handsome adventure together!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Sorry, I am not very mature, I don't want to trouble you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>You are really handsome! Can we learn from each other?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Thank you very much!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Hey, let's talk about it next time...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Attacking others... causing misfortune... It is up to me to resolve this dispute!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Hey! Are you kidding?! OK, since that's it... I have to go all out!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Uh... my ability is not enough to face you... next time we meet, let’s divide it again?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Really, I am satisfied with losing to you, then please work hard, I wish you a good luck!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Your people are really interesting, and there are those handsome gifts... I really want to see you!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Even ordinary gifts are very expensive... you need more than me, sorry.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>I asked my men to bring you some handsome cloaks and armor. Do you like it?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Hey! I have not done anything wrong?!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Your behavior is unforgivable. This is just a warning. Next time, I will compete with you!(Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Hello there! I am Saber, Charlemagne, come to this world to study, you are very handsome! Can you get to know each other?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>My city is very handsome? If you want, we can go shopping together~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Your nation seems to be very handsome! Can you tell me about it? I want to hear your story!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Hey! I have to be handsome again today!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Freedom, peace, eternal light... You are as cool as I am!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_CHARLEMAGNE_SABER_REASON_ANY" >
+			<Text>(Charlemagne has increased your affection for you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Endless wars, painful people... just stop!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_CHARLEMAGNE_SABER_REASON_ANY" >
+			<Text>(Charlemagne has reduced his affection for you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Do you want to spend the next days with me handsomely?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Ok, okay... sorry, I was wrong before, and I will get along soon.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>No! Absolutely not!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>It hurts~ I admit defeat! Don't fight anymore!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>of course! Do what you want to do~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Sorry, not now.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Can my subordinates pass your field peacefully?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>Your army is not as handsome as mine.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" >
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY}</Text>
+		</Row>
+
+		
+		
+		
+		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_TITLE" >
+			<Text>{LOC_LEADER_CHARLEMAGNE_SABER_BLUE_NAME}</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_SUBTITLE" >
+			<Text>Young knight from SE.RA.PH</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_QUOTE" >
+			<Text>I am Saber, Charlemagne. In short, calm down first, how about listening to me?</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_HISTORY_PARA_1" >
+			<Text>Saber's True Name is Charlemagne (シャルルマーニュ, Sharurumānyu), leader and namesake of the Twelve Paladins of Charlemagne. The legend of Charlemagne and his paladins is based off of the real life exploits of Karl der Große. They are both the same Heroic Spirit with the same Saint Graph, but Charlemagne would normally never be summoned due to the real life exploits of Karl far outweighing the fantasy. He is only summoned due to the specific events of the story, but his Saint Graph is registered as a unique existence at the end of the story to allow him to be summoned individually. </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_CAPSULE_BODY" >
+			<Text>Fantasy Charlemagne's abilities are outstanding. He usually has strong economic and military advantages, but he does not like war. If someone can cultivate relationships, he must be a reliable partner.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_DETAILED_BODY" >
+			<Text>Charlemagne's economic and military capabilities are very strong, with the ability to quickly acquire [ICON_Envoy] and [ICON_GreatPerson], as well as some [ICON_Strength] bonuses, quickly establish trade relationships, build cities, gain additional resources, and use Charlemagne more rationally. Characteristics, of course, part of the "Frank Kingdom" ability can not be underestimated, please let him grow handsome!</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_HISTORY_PARA_1" >
+			<Text>Saber's True Name is Charlemagne (シャルルマーニュ, Sharurumānyu), leader and namesake of the Twelve Paladins of Charlemagne. The legend of Charlemagne and his paladins is based off of the real life exploits of Karl der Große. They are both the same Heroic Spirit with the same Saint Graph, but Charlemagne would normally never be summoned due to the real life exploits of Karl far outweighing the fantasy. He is only summoned due to the specific events of the story, but his Saint Graph is registered as a unique existence at the end of the story to allow him to be summoned individually. </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_CAPSULE_BODY" >
+			<Text>Fantasy Charlemagne's abilities are outstanding. He usually has strong economic and military advantages, but he does not like war. If someone can cultivate relationships, he must be a reliable partner.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_DETAILED_BODY" >
+			<Text>Charlemagne's economic and military capabilities are very strong, with the ability to quickly acquire [ICON_Envoy] and [ICON_GreatPerson], as well as some [ICON_Strength] bonuses, quickly establish trade relationships, build cities, gain additional resources, and use Charlemagne more rationally. Characteristics, of course, part of the "Frank Kingdom" ability can not be underestimated, please let him grow handsome!</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_CHAPTER_HISTORY_PARA_1" >
+			<Text>This "Frank Kingdom" comes from Charlemagne's treasure, a moving holy city. With this treasure, he created the "non-existent Frankish kingdom" and based on this world.</Text>
+		</Row>
+
+		
+
+		<!-- GAME DATA  -->
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_COMBAT_DESCRIPTION" >
+			<Text>Active Charlemagne +4</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_EXTRA_COMBAT_DESCRIPTION" >
+			<Text>Justice Charlemagne +8</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_ENVOYS_DESCRIPTION" >
+			<Text>Cool Charlemagne +4</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_DESCRIPTION" >
+			<Text>Handsome Charlemagne +20%</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_DESCRIPTION" >
+			<Text>Sunshine Charlemagne +2</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_GREAT_DESCRIPTION" >
+			<Text>Lovely Charlemagne +50%</Text>
+		</Row>
+
+		<!-- NOT USE GAME DATA -->
+		
+		<Row Tag="LOC_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" >
+			<Text>Holy Knight Emperor EX</Text>
+		</Row>
+		
+		
+
+		<Row Tag="LOC_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DESCRIPTION" >
+			<Text>Charlemagne is flexible, loves the people, values friendship, maintains peace, and makes himself strong, so he does not like people who are opposite him.</Text>
+		</Row>
+
+		<!-- V5 -->
+		
+		<Row Tag="LOC_DIPLO_MODIFIER_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DECLARED_FRIEND" >
+			<Text>Charlemagne likes Declared Friends</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND" >
+			<Text>Charlemagne hates it when you denounce his friends</Text>
+		</Row>
+
+
+	</BaseGameText>
+
+</GameData>

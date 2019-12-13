@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_icons -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/13/2018 3:48:08 PM -->
+<GameData>
+
+
+
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_RED_ATLAS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_RED_ATLAS_256.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_RED_ATLAS" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_RED_ATLAS_80.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_RED_ATLAS" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_RED_ATLAS_64.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_RED_ATLAS" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_RED_ATLAS_55.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_RED_ATLAS" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_RED_ATLAS_50.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_RED_ATLAS" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_RED_ATLAS_48.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_RED_ATLAS" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_RED_ATLAS_45.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_RED_ATLAS" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_RED_ATLAS_32.dds"/>
+	</IconTextureAtlases>
+
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_CHARLEMAGNE_SABER_EXTRA" Atlas="ATLAS_LEADER_CHARLEMAGNE_SABER_RED_ATLAS" index="0"/>
+	</IconDefinitions>
+
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_BLUE_ATLAS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_BLUE_ATLAS_256.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_BLUE_ATLAS" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_BLUE_ATLAS_80.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_BLUE_ATLAS" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_BLUE_ATLAS_64.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_BLUE_ATLAS" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_BLUE_ATLAS_55.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_BLUE_ATLAS" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_BLUE_ATLAS_50.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_BLUE_ATLAS" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_BLUE_ATLAS_48.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_BLUE_ATLAS" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_BLUE_ATLAS_45.dds"/>
+		<Row Name="ATLAS_LEADER_CHARLEMAGNE_SABER_BLUE_ATLAS" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_BLUE_ATLAS_32.dds"/>
+	</IconTextureAtlases>
+
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_CHARLEMAGNE_SABER" Atlas="ATLAS_LEADER_CHARLEMAGNE_SABER_BLUE_ATLAS" index="0"/>
+	</IconDefinitions>
+
+
+
+	<IconTextureAtlases>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_256.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_200.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_128.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_80.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_64.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_50.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_48.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_44.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_36.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_32.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_30.dds"/>
+	<Row Name="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CHARLEMAGNE_SABER_CIV_SYMBOL_22.dds"/>
+
+
+
+
+
+
+		<!--
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="22" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols22.dds"/>
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="30" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols30.dds"/>
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="36" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols36.dds"/>
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="45" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols45.dds"/>
+		
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="44" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols44.dds"/>
+		
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="48" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols48.dds"/>
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="50" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols50.dds"/>
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="64" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols64.dds"/>
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="80" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols80.dds"/>
+		<Row Name="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" IconSize="256" IconsPerRow="8" IconsPerColumn="1" Filename="VikingsScenario_CivSymbols256.dds"/>
+		-->
+	
+	
+	
+	
+	
+	
+	</IconTextureAtlases>
+	
+	
+
+
+	<IconDefinitions>
+		
+		<Row Name="ICON_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA" Atlas="ATLAS_CIVILIZATION_CHARLEMAGNE_SABER_CIV_SYMBOL" index="0"/>
+
+		<!--
+		<Row Name="ICON_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA" Atlas="ICON_ATLAS_VIKINGSSCENARIO_CIVILIZATIONS" index="2"/>
+		-->
+	</IconDefinitions>
+
+</GameData>

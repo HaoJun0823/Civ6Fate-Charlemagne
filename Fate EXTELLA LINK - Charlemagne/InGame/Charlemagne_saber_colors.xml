@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_colors -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/23/2019 4:34:11 PM -->
+<GameData>
+
+	<!--
+	
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_CHARLEMAGNE_SABER_PRIMARY</Type>
+			<Color>0,138,197,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_CHARLEMAGNE_SABER_SECONDARY</Type>
+			<Color>252,252,252,255</Color>
+		</Row>
+	</Colors>
+
+	-->
+
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_CHARLEMAGNE_SABER</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_BLUE_MD</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_WHITE_LT</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_WHITE_DK</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_RED_DK</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_BLUE_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_YELLOW_MD</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_DK</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_CHARLEMAGNE_SABER_EXTRA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_WHITE_DK</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_RED_DK</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_BLUE_MD</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_BLUE_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_YELLOW_MD</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_DK</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+
+
+	<!--
+	
+	
+	
+	
+		<Row>
+			<Type>COLOR_PLAYER_FRANCIA_PRIMARY</Type>
+			<Color>178,178,178,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_FRANCIA_SECONDARY</Type>
+			<Color>31,32,31,255</Color>
+		</Row>
+		
+		
+		<Row>
+			<Type>LEADER_CHARLEMAGNE</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_WHITE_MD2</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_WHITE_DK</SecondaryColor>
+		</Row>		
+		
+		
+	-->
+	
+
+	
+</GameData>

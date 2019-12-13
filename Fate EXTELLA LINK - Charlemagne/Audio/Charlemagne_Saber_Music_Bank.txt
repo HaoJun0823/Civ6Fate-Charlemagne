@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1883170	Play_Music_CHARLEMAGNE_SABER_FRANCIA			\Music\Play_Music_CHARLEMAGNE_SABER_FRANCIA	
+	579660035	Play_Leader_Music_CHARLEMAGNE_SABER			\Music\Play_Leader_Music_CHARLEMAGNE_SABER	
+	788627845	Stop_Leader_Music_CHARLEMAGNE_SABER			\Music\Stop_Leader_Music_CHARLEMAGNE_SABER	
+	2187317204	Stop_Music_CHARLEMAGNE_SABER_FRANCIA			\Music\Stop_Music_CHARLEMAGNE_SABER_FRANCIA	
+	2743430361	Resume_Music_CHARLEMAGNE_SABER_FRANCIA			\Music\Resume_Music_CHARLEMAGNE_SABER_FRANCIA	
+	3120845594	Start_Music_CHARLEMAGNE_SABER_FRANCIA			\Music\Start_Music_CHARLEMAGNE_SABER_FRANCIA	
+	4119717052	Pause_Music_CHARLEMAGNE_SABER_FRANCIA			\Music\Pause_Music_CHARLEMAGNE_SABER_FRANCIA	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	373350295	Game_Location			\Default Work Unit\Game_Location	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	268352164		341261676		445190152		796514192		968653451	

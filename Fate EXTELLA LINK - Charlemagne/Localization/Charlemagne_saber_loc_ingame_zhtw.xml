@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_loc_ingame_zhtw -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/16/2018 9:32:37 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>帥氣的“法蘭克王國”</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>“法蘭克人”</Text>
+		</Row>
+
+		<!--
+<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_CAPITAL" Language="zh_Hant_HK">
+<Text>Charle Patricius</Text>
+</Row>
+-->
+
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_REAL_CAPITAL" Language="zh_Hant_HK">
+			<Text>查理曼的亞琛</Text>
+		</Row>
+
+
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_1" Language="zh_Hant_HK">
+			<Text>衛宮的冬木</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_2" Language="zh_Hant_HK">
+			<Text>貞德的奧爾良</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_3" Language="zh_Hant_HK">
+			<Text>德雷克的無盡之海</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_4" Language="zh_Hant_HK">
+			<Text>尼祿的羅馬</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_5" Language="zh_Hant_HK">
+			<Text>福爾摩斯的倫敦</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_6" Language="zh_Hant_HK">
+			<Text>愛迪生的美利堅</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_7" Language="zh_Hant_HK">
+			<Text>阿爾托莉雅的卡美洛</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_8" Language="zh_Hant_HK">
+			<Text>吉爾伽美什的巴比倫</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_9" Language="zh_Hant_HK">
+			<Text>所羅門的神殿</Text>
+		</Row>
+
+
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_10" Language="zh_hant_HK">
+			<Text>伊斯坎達爾的馬其頓</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_11" Language="zh_hant_HK">
+			<Text>奧茲曼迪亞斯的埃及</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_12" Language="zh_hant_HK">
+			<Text>拿破侖的法蘭西</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_13" Language="zh_hant_HK">
+			<Text>武則天的中國</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_14" Language="zh_hant_HK">
+			<Text>大衛的以色列</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_15" Language="zh_hant_HK">
+			<Text>大流士三世的波斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_16" Language="zh_hant_HK">
+			<Text>賽米拉米斯的亞述</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_17" Language="zh_hant_HK">
+			<Text>阿提拉的匈奴</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_18" Language="zh_hant_HK">
+			<Text>艾蕾什基伽爾的冥界</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHARLEMAGNE_SABER_FGO_19" Language="zh_hant_HK">
+			<Text>BB的SE.RA.PH</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_1" Language="zh_Hant_HK">
+			<Text>羅蘭</Text>
+			<!-- 羅蘭 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_2" Language="zh_Hant_HK">
+			<Text>李拿度</Text>
+			<!-- 李拿度 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_3" Language="zh_Hant_HK">
+			<Text>托賓</Text>
+			<!-- 托賓 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_4" Language="zh_Hant_HK">
+			<Text>馬拉吉吉</Text>
+			<!-- 馬拉吉吉 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_5" Language="zh_Hant_HK">
+			<Text>奧吉爾</Text>
+			<!-- 奧吉爾 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_6" Language="zh_Hant_HK">
+			<Text>所羅門</Text>
+			<!-- 所羅門 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_7" Language="zh_Hant_HK">
+			<Text>阿斯托爾福</Text>
+			<!-- 阿斯托爾福 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_8" Language="zh_Hant_HK">
+			<Text>法華利亞</Text>
+			<!-- 法華利亞 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_9" Language="zh_Hant_HK">
+			<Text>斐蘭巴拉斯</Text>
+			<!-- 斐蘭巴拉斯 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_10" Language="zh_Hant_HK">
+			<Text>弗雷羅斯馬特</Text>
+			<!-- 弗雷羅斯馬特 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_11" Language="zh_Hant_HK">
+			<Text>奧利弗</Text>
+			<!-- 奧利弗 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MALE_12" Language="zh_Hant_HK">
+			<Text>加尼隆</Text>
+			<!-- 加尼隆 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_1" Language="zh_Hant_HK">
+			<Text> 赫羅特魯德</Text>
+			<!-- 赫羅特魯德 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_2" Language="zh_Hant_HK">
+			<Text>德西德里他</Text>
+			<!-- 德西德里他 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_3" Language="zh_Hant_HK">
+			<Text>希爾迪加爾德</Text>
+			<!-- 希爾迪加爾德 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_4" Language="zh_Hant_HK">
+			<Text>法斯特拉達</Text>
+			<!-- 法斯特拉達 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_FEMALE_5" Language="zh_Hant_HK">
+			<Text>柳特加爾德</Text>
+			<!-- 柳特加爾德 -->
+		</Row>
+
+		<!-- Modern -->
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_1" Language="zh_Hant_HK">
+			<Text>衛宮</Text>
+			<!-- 衛宮 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_2" Language="zh_Hant_HK">
+			<Text>羅賓漢</Text>
+			<!-- 羅賓漢 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_3" Language="zh_Hant_HK">
+			<Text>阿周那</Text>
+			<!-- 阿周那 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_4" Language="zh_Hant_HK">
+			<Text>蘭斯洛特</Text>
+			<!-- 蘭斯洛特 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_5" Language="zh_Hant_HK">
+			<Text>庫丘林</Text>
+			<!-- 庫·丘林 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_6" Language="zh_Hant_HK">
+			<Text>李書文</Text>
+			<!-- 李書文 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_7" Language="zh_Hant_HK">
+			<Text>呂布奉先</Text>
+			<!-- 呂布奉先 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_8" Language="zh_Hant_HK">
+			<Text>吉爾伽美什</Text>
+			<!-- 吉爾伽美什 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_9" Language="zh_Hant_HK">
+			<Text>伊斯坎達爾</Text>
+			<!-- 伊斯坎達爾 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_10" Language="zh_Hant_HK">
+			<Text>大流士三世</Text>
+			<!-- 大流士三世 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_11" Language="zh_Hant_HK">
+			<Text>吉爾·德·雷</Text>
+			<!-- 吉爾·德·雷 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_MALE_12" Language="zh_Hant_HK">
+			<Text>阿基米德</Text>
+			<!-- 阿基米德 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_1" Language="zh_Hant_HK">
+			<Text>尼祿·克勞狄烏斯</Text>
+			<!-- 尼祿·克勞狄烏斯 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_2" Language="zh_Hant_HK">
+			<Text>玉藻前</Text>
+			<!-- 玉藻前 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_3" Language="zh_Hant_HK">
+			<Text>阿提拉</Text>
+			<!-- 阿提拉 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_4" Language="zh_Hant_HK">
+			<Text>阿爾托莉雅·潘德拉貢</Text>
+			<!-- 阿爾托莉雅·潘德拉貢 -->
+		</Row>
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_5" Language="zh_Hant_HK">
+			<Text>伊麗莎白·巴托里</Text>
+			<!-- 伊麗莎白·巴托里 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_6" Language="zh_Hant_HK">
+			<Text>貞德</Text>
+			<!-- 貞德 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_7" Language="zh_Hant_HK">
+			<Text>斯卡哈</Text>
+			<!-- 斯卡哈 -->
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_CHARLEMAGNE_SABER_MODERN_FEMALE_8" Language="zh_Hant_HK">
+			<Text>弗朗西斯·德雷克</Text>
+			<!-- 弗朗西斯·德雷克 -->
+		</Row>
+
+		<!-- Over -->
+
+
+		<Row Tag="LOC_CIVINFO_CHARLEMAGNE_SABER_LOCATION" Language="zh_Hant_HK">
+			<Text>SE.RA.PH</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CHARLEMAGNE_SABER_SIZE" Language="zh_Hant_HK">
+			<Text>無法計算大小</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CHARLEMAGNE_SABER_POPULATION" Language="zh_Hant_HK">
+			<Text>無法計算人口</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CHARLEMAGNE_SABER_CAPITAL" Language="zh_Hant_HK">
+			<Text>無法計算首都</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_CHARLEMAGNE_SABER_QUOTE" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_CHARLEMAGNE_SABER" Language="zh_Hant_HK">
+			<Text>一個無憂無慮的年輕人，有點直言不諱地說自己不太適合成為國王。他將審美標準和行為放在“這是酷還是不酷”上，即便會給禦主造成麻煩，甚至是對自己的一個缺點......儘管存在這種人格缺陷，但阿斯托爾福仍將查理曼描述為一個盡職盡責的仁慈之王。會與他的人民一起哭泣和欢笑，並幫助那些有需要的人。 </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>好的好的！我們一起帥氣的冒險吧！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>抱歉，我還不是很成熟，不想給你惹麻煩哦。 </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>你真的很帥啊！我們能不能互相學習一下？ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>非常感謝！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>唔，下次再說吧……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>攻擊別人……造成不幸……是該由我來解決這場紛爭了！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>餵！你是開玩笑的吧？ ！好吧，既然這樣……我也要全力的上啦！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>唔……我的能力還不足夠面對你呢……下次相見，我們再分出高下吧？ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>真是的，輸給你我已經心滿意足了，接下來請努力哦，祝你武運昌盛！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>你的人民真有趣，還有那些帥氣的禮物……我真的很想和你見一面啊！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>即便是普通的禮物，也很貴重呢……你比我更需要，抱歉啦。 </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>我讓我的部下給你帶了一些帥氣的披風和鎧甲，你喜歡嗎？ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>喂喂！我沒有做錯什麼事情吧？ ！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>你的行為罪不可恕，這只是一次警告，下次，我就要和你好好較量了！ [NEWLINE]（譴責你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>你好！我是查理曼，職階是Saber，來到這個世界學習，你很帥氣呢！能互相認識一下嗎？ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>我的城市很帥氣吧？如果你想的話，我們可以一起去逛街哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>你的民族好像很帥氣呢！能跟我講講嗎？我想听聽你的故事呢！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>呦！今天也要帥氣的加油哦！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>自由、和平、永遠的光明……你也和我一樣酷呢！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_CHARLEMAGNE_SABER_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（查理曼對您的好感增加了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>無盡的戰爭，痛苦的人民……適可而止吧！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_CHARLEMAGNE_SABER_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（查理曼對您的好感減少了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>你想和我一起帥氣的度過接下來的日子嗎？ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>好啦好啦……抱歉，之前是我不對，以後慢慢相處吧。 </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>不行！絕對不行！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>好疼~我認輸啦！不要再打啦！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>當然！做你想做的事情吧~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>抱歉，現在不行。 </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>可以讓我的部下和平的通過你的領域嗎？ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>你的軍隊可沒有我的帥氣。 </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY" Language="zh_Hant_HK">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CHARLEMAGNE_SABER_ANY}</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_SUBTITLE" Language="zh_Hant_HK">
+			<Text>來自SE.RA.PH的年輕騎士</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_QUOTE" Language="zh_Hant_HK">
+			<Text>我是Saber，查理曼。總之先冷靜下來，聽聽我的話如何？ </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>Saber的真名是查理曼（シャルルマーニュ，Sharurumānyu），查理曼十二聖騎士的領袖和同名人物。查理曼和他的聖騎士的傳說是基於KarlderGroße的真實生活。它們都是具有相同靈基的英雄精神，但由於卡爾的真實生活利用遠遠超過幻想，所以通常永遠不會召喚查理曼。由於故事的具體事件，他只被召喚，但他的靈基在故事的最後被記錄為一個獨特的存在，以允許他被單獨召喚。 </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>幻想的查理曼的各項能力都十分突出，他通常會有強大的經濟優勢和軍事優勢，但他並不喜歡戰爭，如果有人能好好培養關係，一定是個可靠的伙伴。 </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>查理曼的經濟和軍事能力非常強大，能夠快速獲得[ICON_Envoy] 和[ICON_GreatPerson]，同時也有一些[ICON_Strength]加成，快速建立貿易關係，建造城市，獲得額外資源，能夠更合理地使用查理曼的特性，當然，“法蘭克王國”的部分能力也不容小看，請讓他帥氣的成長吧！ </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>Saber的真名是查理曼（シャルルマーニュ，Sharurumānyu），查理曼十二聖騎士的領袖和同名人物。查理曼和他的聖騎士的傳說是基於KarlderGroße的真實生活。它們都是具有相同靈基的英雄精神，但由於卡爾的真實生活利用遠遠超過幻想，所以通常永遠不會召喚查理曼。由於故事的具體事件，他只被召喚，但他的靈基在故事的最後被記錄為一個獨特的存在，以允許他被單獨召喚。 </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>幻想的查理曼的各項能力都十分突出，他通常會有強大的經濟優勢和軍事優勢，但他並不喜歡戰爭，如果有人能好好培養關係，一定是個可靠的伙伴。 </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>查理曼的經濟和軍事能力非常強大，能夠快速獲得[ICON_Envoy] 和[ICON_GreatPerson]，同時也有一些[ICON_Strength]加成，快速建立貿易關係，建造城市，獲得額外資源，能夠更合理地使用查理曼的特性，當然，“法蘭克王國”的部分能力也不容小看，請讓他帥氣的成長吧！ </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>這個“法蘭克王國”來自於查理曼的寶具，一座會移動的聖城，利用這個寶具，他創造了“不存在的法蘭克王國”，立足於這個世界。 </Text>
+		</Row>
+
+
+
+		<!-- GAME DATA -->
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>活躍的查理曼 +4</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_EXTRA_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>正義的查理曼 +8</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_ENVOYS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>酷酷的查理曼 +4</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>帥氣的查理曼 +20%</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>陽光的查理曼 +2</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_GREAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>可愛的查理曼 +50%</Text>
+		</Row>
+
+		<!-- NOT USE GAME DATA -->
+
+		<Row Tag="LOC_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" Language="zh_Hant_HK">
+			<Text>聖騎士帝 EX</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>查理曼靈活多變、愛護人民、重視友誼、維護和平、讓自己變得強大，所以他不喜歡與他相反的人。 </Text>
+		</Row>
+
+		<!-- V5 -->
+
+		<Row Tag="LOC_DIPLO_MODIFIER_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DECLARED_FRIEND" Language="zh_Hant_HK">
+			<Text>查理曼喜歡宣佈友好</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX_DENOUNCED_FRIEND" Language="zh_Hant_HK">
+			<Text>查理曼討厭您譴責他的朋友</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

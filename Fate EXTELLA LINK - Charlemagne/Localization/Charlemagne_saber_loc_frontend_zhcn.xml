@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_loc_frontend_zhcn -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/13/2018 11:09:41 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_CHARLEMAGNE_SABER_NAME" Language="zh_Hans_CN">
+			<Text>查理曼</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_CHARLEMAGNE_SABER_RED_NAME" Language="zh_Hans_CN">
+			<Text>查理曼（黑骑士）</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_CHARLEMAGNE_SABER_BLUE_NAME" Language="zh_Hans_CN">
+			<Text>查理曼（圣骑士）</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_NAME"  Language="zh_Hans_CN">
+			<Text>展示王勇遍历巡世的十二辉剑</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_DESCRIPTION"  Language="zh_Hans_CN">
+			<Text>额外的一个军事和一个贸易政策卡槽[NEWLINE]每回合 +8 [ICON_Envoy] 影响力点数[NEWLINE]获得的 [ICON_GreatPerson] 多 100%[NEWLINE]所有单位 +4 [ICON_Strength]（额外 +8 对蛮族）[NEWLINE]所有商路 +3 [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science][NEWLINE]所有城市 +30% [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science]</Text>
+		</Row>
+
+		<!--
+		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_NAME" Language="zh_Hans_CN">
+			<Text>帅气的法兰克王国</Text>
+		</Row>
+		-->
+
+		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_NAME" Language="zh_Hans_CN">
+			<Text>查理曼的“法兰克”</Text>
+		</Row>
+
+
+		<!--
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>酷的“加洛林风格”</Text>
+		</Row>
+		-->
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>吾转瞬即逝的荣光</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>同时拥有法国、德国、罗马的文明特色。[NEWLINE]能建造法国和日本的特色建筑。[NEWLINE]没有特殊单位。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

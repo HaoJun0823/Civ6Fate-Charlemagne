@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_leader_ep1 -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 10/13/2018 12:03:44 AM -->
+<GameData>
+	<AiListTypes>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeaceEp1"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesProtectEp1"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreatEp1"/>
+	</AiListTypes>
+	<AILists>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeaceEp1" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesProtectEp1" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreatEp1" AgendaType="TRAIT_AGENDA_CHARLEMAGNE_SABER_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+	</AILists>
+	<AiFavoredItems>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeaceEp1" Item="DIPLOACTION_DECLARE_GOLDEN_AGE_WAR" Favored="false"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesProtectEp1" Item="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION" Favored="true"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesPeaceEp1" Item="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR" Favored="false"/>
+
+
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreatEp1" Item="PSEUDOYIELD_GOLDENAGE_POINT" Value="500"/>
+		<Row ListType="CharlemagneSaberAgendaAiListTypesGreatEp1" Item="PSEUDOYIELD_GOVERNOR" Value="20"/>
+		
+	</AiFavoredItems>
+
+</GameData>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>G:\Documents\WwiseProjects\Charlemagne\</ProjectRoot>
+		<SourceFilesRoot>G:\Documents\WwiseProjects\Charlemagne\.cache\iOS\</SourceFilesRoot>
+		<SoundBanksRoot>G:\Documents\WwiseProjects\Charlemagne\GeneratedSoundBanks\iOS\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>G:\Documents\WwiseProjects\Charlemagne\GeneratedSoundBanks\iOS\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="268352164" Language="SFX">
+			<ShortName>高田龍一 - 戦いの休息.wav</ShortName>
+			<Path>SFX\高田龍一 - 戦いの休息_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="341261676" Language="SFX">
+			<ShortName>高田龍一 - 彼方の夢へ、その一歩.wav</ShortName>
+			<Path>SFX\高田龍一 - 彼方の夢へ、その一歩_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="445190152" Language="SFX">
+			<ShortName>帆足圭吾 - 騎士よ、剣を抜け.wav</ShortName>
+			<Path>SFX\帆足圭吾 - 騎士よ、剣を抜け_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="796514192" Language="SFX">
+			<ShortName>岡部啓一 - 遍歴騎士、推参!.wav</ShortName>
+			<Path>SFX\岡部啓一 - 遍歴騎士、推参!_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="968653451" Language="SFX">
+			<ShortName>帆足圭吾 - 我が儚き栄光よ.wav</ShortName>
+			<Path>SFX\帆足圭吾 - 我が儚き栄光よ_4B8CC0C5.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3142339273" Language="SFX">
+			<ShortName>Charlemagne_Saber_Music_Bank</ShortName>
+			<Path>Charlemagne_Saber_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4119717052" Name="Pause_Music_CHARLEMAGNE_SABER_FRANCIA"/>
+				<Event Id="579660035" Name="Play_Leader_Music_CHARLEMAGNE_SABER"/>
+				<Event Id="1883170" Name="Play_Music_CHARLEMAGNE_SABER_FRANCIA"/>
+				<Event Id="2743430361" Name="Resume_Music_CHARLEMAGNE_SABER_FRANCIA"/>
+				<Event Id="3120845594" Name="Start_Music_CHARLEMAGNE_SABER_FRANCIA"/>
+				<Event Id="788627845" Name="Stop_Leader_Music_CHARLEMAGNE_SABER"/>
+				<Event Id="2187317204" Name="Stop_Music_CHARLEMAGNE_SABER_FRANCIA"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="268352164"/>
+				<File Id="341261676"/>
+				<File Id="445190152"/>
+				<File Id="796514192"/>
+				<File Id="968653451"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

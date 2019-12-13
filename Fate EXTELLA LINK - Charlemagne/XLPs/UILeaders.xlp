@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UILeaders"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_BACKGROUND_FIRST"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_BACKGROUND_FIRST"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_BACKGROUND_FOUNTAIN"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_BACKGROUND_FOUNTAIN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_BLUE_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_BLUE_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_RED_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_RED_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_TIPS"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_TIPS"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_BLUE_PORTRAIT"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_BLUE_PORTRAIT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_RED_PORTRAIT"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_RED_PORTRAIT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_BACKGROUND_LOAD"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_BACKGROUND_LOAD"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CHARLEMAGNE_SABER_EXTRA_BACKGROUND"/>
+			<m_ObjectName text="LEADER_CHARLEMAGNE_SABER_BACKGROUND"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

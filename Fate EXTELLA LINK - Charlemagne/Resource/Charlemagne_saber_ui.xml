@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Charlemagne_saber_ui -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/13/2018 10:26:23 PM -->
+<GameData>
+	<!--
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_CHARLEMAGNE_SABER_PRIMARY</Type>
+			<Red>0</Red>
+			<Green>0.286</Green>
+			<Blue>1</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_CHARLEMAGNE_SABER_SECONDARY</Type>
+			<Red>0.921</Red>
+			<Green>0.921</Green>
+			<Blue>0.921</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	-->
+
+	<!--
+	
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_CHARLEMAGNE_SABER_PRIMARY</Type>
+			<Color>0,138,197,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_CHARLEMAGNE_SABER_SECONDARY</Type>
+			<Color>252,252,252,255</Color>
+		</Row>
+	</Colors>
+
+
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_CHARLEMAGNE_SABER</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_CHARLEMAGNE_SABER_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_CHARLEMAGNE_SABER_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_MIDDLE_BLUE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	-->
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER" ForegroundImage="LEADER_CHARLEMAGNE_SABER_TIPS" BackgroundImage="LEADER_CHARLEMAGNE_SABER_BACKGROUND_LOAD" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_CHARLEMAGNE_SABER_EXTRA" ForegroundImage="LEADER_CHARLEMAGNE_SABER_TIPS" BackgroundImage="LEADER_CHARLEMAGNE_SABER_BACKGROUND_LOAD" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_CHARLEMAGNE_SABER" BackgroundImage="LEADER_CHARLEMAGNE_SABER_BACKGROUND_FOUNTAIN"/>
+		<Row Type="LEADER_CHARLEMAGNE_SABER_EXTRA" BackgroundImage="LEADER_CHARLEMAGNE_SABER_BACKGROUND_FOUNTAIN"/>
+	</DiplomacyInfo>
+
+</GameData>
