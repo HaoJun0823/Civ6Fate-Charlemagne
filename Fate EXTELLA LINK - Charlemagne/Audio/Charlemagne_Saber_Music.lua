@@ -17,6 +17,9 @@
 --2019/08/13
 --For Red Style.
 
+--2020/04/12
+--The game has been fixed! Doesn't need this script.
+
 -----------------------------------------------------------------------------------------
 local LEADER_NAME = "LEADER_CHARLEMAGNE_SABER" --Set your Leader
 local LEADER_EXTRA_NAME = "LEADER_CHARLEMAGNE_SABER_EXTRA" --For Red Style.

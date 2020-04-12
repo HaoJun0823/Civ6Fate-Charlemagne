@@ -41,11 +41,11 @@
 			<Path>Charlemagne_Saber_Music_Bank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4119717052" Name="Pause_Music_CHARLEMAGNE_SABER_FRANCIA"/>
-				<Event Id="579660035" Name="Play_Leader_Music_CHARLEMAGNE_SABER"/>
+				<Event Id="674149048" Name="Play_Leader_Music_CHARLEMAGNE_SABER_FRANCIA"/>
 				<Event Id="1883170" Name="Play_Music_CHARLEMAGNE_SABER_FRANCIA"/>
 				<Event Id="2743430361" Name="Resume_Music_CHARLEMAGNE_SABER_FRANCIA"/>
 				<Event Id="3120845594" Name="Start_Music_CHARLEMAGNE_SABER_FRANCIA"/>
-				<Event Id="788627845" Name="Stop_Leader_Music_CHARLEMAGNE_SABER"/>
+				<Event Id="4260939070" Name="Stop_Leader_Music_CHARLEMAGNE_SABER_FRANCIA"/>
 				<Event Id="2187317204" Name="Stop_Music_CHARLEMAGNE_SABER_FRANCIA"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
