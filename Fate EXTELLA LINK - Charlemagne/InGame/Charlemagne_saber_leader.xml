@@ -114,6 +114,13 @@
 		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION"/>
 		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH"/>
 
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD_C"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD_C"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE_C"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE_C"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION_C"/>
+		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH_C"/>
+
 		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_GOLD"/>
 		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FOOD"/>
 		<Row TraitType="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE" ModifierId="TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_SCIENCE"/>
@@ -192,10 +199,48 @@
 		</Row>
 
 
-
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<!-- CAPITAL -->
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD_C</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD_C</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE_C</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE_C</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION_C</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH_C</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
 		</Row>
 
 
@@ -308,7 +353,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD</ModifierId>
 			<Name>Amount</Name>
-			<Value>30</Value>
+			<Value>20</Value>
 		</Row>
 
 		<Row>
@@ -319,7 +364,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD</ModifierId>
 			<Name>Amount</Name>
-			<Value>30</Value>
+			<Value>20</Value>
 		</Row>
 
 		<Row>
@@ -330,7 +375,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE</ModifierId>
 			<Name>Amount</Name>
-			<Value>30</Value>
+			<Value>20</Value>
 		</Row>
 
 		<Row>
@@ -341,7 +386,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>30</Value>
+			<Value>20</Value>
 		</Row>
 
 		<Row>
@@ -352,7 +397,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
-			<Value>30</Value>
+			<Value>20</Value>
 		</Row>
 
 		<Row>
@@ -363,7 +408,75 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH</ModifierId>
 			<Name>Amount</Name>
-			<Value>30</Value>
+			<Value>20</Value>
+		</Row>
+
+		<!-- CAPITAL -->
+		
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD_C</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_GOLD_C</ModifierId>
+			<Name>Amount</Name>
+			<Value>80</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD_C</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FOOD_C</ModifierId>
+			<Name>Amount</Name>
+			<Value>80</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE_C</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_CULTURE_C</ModifierId>
+			<Name>Amount</Name>
+			<Value>80</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE_C</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_SCIENCE_C</ModifierId>
+			<Name>Amount</Name>
+			<Value>80</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION_C</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_PRODUCTION_C</ModifierId>
+			<Name>Amount</Name>
+			<Value>80</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH_C</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_CITY_FAITH_C</ModifierId>
+			<Name>Amount</Name>
+			<Value>80</Value>
 		</Row>
 
 		<!-- Trade -->
@@ -376,7 +489,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_GOLD</ModifierId>
 			<Name>Amount</Name>
-			<Value>3</Value>
+			<Value>4</Value>
 		</Row>
 
 		<Row>
@@ -387,7 +500,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FOOD</ModifierId>
 			<Name>Amount</Name>
-			<Value>3</Value>
+			<Value>4</Value>
 		</Row>
 
 		<Row>
@@ -398,7 +511,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_SCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>3</Value>
+			<Value>4</Value>
 		</Row>
 
 		<Row>
@@ -409,7 +522,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_CULTURE</ModifierId>
 			<Name>Amount</Name>
-			<Value>3</Value>
+			<Value>4</Value>
 		</Row>
 
 		<Row>
@@ -420,7 +533,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
-			<Value>3</Value>
+			<Value>4</Value>
 		</Row>
 
 		<Row>
@@ -431,7 +544,7 @@
 		<Row>
 			<ModifierId>TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_TRADE_FAITH</ModifierId>
 			<Name>Amount</Name>
-			<Value>3</Value>
+			<Value>4</Value>
 		</Row>
 
 		<!-- ENVOYS -->

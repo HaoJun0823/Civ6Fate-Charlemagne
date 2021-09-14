@@ -17,7 +17,7 @@
 			<Text>Joyeuse Ordre</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_DESCRIPTION" >
-			<Text>Extra one military and one economic policy slot[NEWLINE]Every round +8 [ICON_Envoy] point[NEWLINE]Get [ICON_GreatPerson] more 100%[NEWLINE]All unit +4 [ICON_Strength](Extra +8 for barbarian)[NEWLINE]All trade +3 [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science][NEWLINE]All city +30% [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science]</Text>
+			<Text>+12 [ICON_TradeRoute] Trade Route[NEWLINE]Extra one military and one economic policy slot[NEWLINE]Every round +8 [ICON_Envoy] point[NEWLINE]Get [ICON_GreatPerson] more 100%[NEWLINE]All unit +4 [ICON_Strength](Extra +8 for barbarian)[NEWLINE]All trade +4 [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science](If the target city is an ally, both players have an additional +2)[NEWLINE]All city +20% [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science](Extra +80% in the capital)</Text>
 		</Row>
 		
 		<!--
@@ -43,6 +43,10 @@
 		
 		<Row Tag="LOC_TRAIT_CIVILIZATION_CHARLEMAGNE_SABER_ABILITY_DESCRIPTION" >
 			<Text>Have Germany, France, Rome's national culture.[NEWLINE]Can build Japan and France's special building.[NEWLINE]No special unit.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_QUOTE" >
+			<Text>I am Saber, Charlemagne. In short, calm down first, how about listening to me?</Text>
 		</Row>
 
 	</BaseGameText>

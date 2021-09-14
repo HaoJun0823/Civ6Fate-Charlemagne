@@ -5,7 +5,7 @@
     <Name>LOC_CIVILIZATION_CHARLEMAGNE_SABER_MOD_NAME</Name>
     <Guid>83b991df-a23a-499f-96c4-1cc210354b9b</Guid>
     <ProjectGuid>55445f44-377c-454d-92ab-317648f0a0da</ProjectGuid>
-    <ModVersion>23</ModVersion>
+    <ModVersion>28</ModVersion>
     <Teaser>LOC_CIVILIZATION_CHARLEMAGNE_SABER_MOD_SPECIAL_TEASER</Teaser>
     <Description>LOC_CIVILIZATION_CHARLEMAGNE_SABER_MOD_SPECIAL_DESCRIPTION</Description>
     <Authors>LOC_CIVILIZATION_CHARLEMAGNE_SABER_MOD_AUTHOR</Authors>
@@ -16,7 +16,7 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>Fate EXTELLA LINK - Charlemagne</AssemblyName>
     <RootNamespace>Fate EXTELLA LINK - Charlemagne</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="CharlemagneGameplay"><Criteria>LeaderCriteria</Criteria><File>InGame/Charlemagne_saber_civilization.xml</File><File>InGame/Charlemagne_saber_leader.xml</File><File>Resource/Charlemagne_saber_ui.xml</File></UpdateDatabase><UpdateText id="CharlemagneText"><Criteria>LeaderCriteria</Criteria><File>Localization/Charlemagne_saber_loc_frontend_base.xml</File><File>Localization/Charlemagne_saber_loc_frontend_zhcn.xml</File><File>Localization/Charlemagne_saber_loc_ingame_base.xml</File><File>Localization/Charlemagne_saber_loc_ingame_zhcn.xml</File><File>Localization/Charlemagne_saber_loc_frontend_zhtw.xml</File><File>Localization/Charlemagne_saber_loc_ingame_zhtw.xml</File></UpdateText><UpdateIcons id="CharlemagneIcons"><Criteria>LeaderCriteria</Criteria><File>Resource/Charlemagne_saber_icons.xml</File></UpdateIcons><UpdateArt id="CharlemagneArt"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateLogitechARX id="CharlemagneLogitechARX"><Criteria>LeaderCriteria</Criteria><File>Data/ARX/Civ_LEADER_CHARLEMAGNE_SABER.png</File><File>Data/ARX/Civ_LEADER_CHARLEMAGNE_SABER_EXTRA.png</File></UpdateLogitechARX><UpdateDatabase id="CharlemagneGameplay_XP1"><Properties><LoadOrder>50</LoadOrder></Properties><Criteria>LeaderCriteria_Expansion1</Criteria><File>InGame/Charlemagne_saber_leader_ep1.xml</File></UpdateDatabase><AddUserInterfaces id="CharlemagneUserInterface"><Properties><Context>InGame</Context></Properties><Criteria>LeaderCriteria</Criteria></AddUserInterfaces><UpdateAudio id="CharlemagneAudio"><Criteria>LeaderCriteria</Criteria><File>Audio/Charlemagne_Saber_Music_Bank.ini</File><File>Audio/Charlemagne_Saber_Music_Bank.bnk</File><File>Audio/Charlemagne_Saber_Music_Bank.txt</File></UpdateAudio><ImportFiles id="CharlemagneFile"><Criteria>LeaderCriteria</Criteria></ImportFiles><UpdateDatabase id="CharlemagneGameplay_XP2"><Properties><LoadOrder>50</LoadOrder></Properties><Criteria>LeaderCriteria_Expansion2</Criteria><File>InGame/Charlemagne_saber_leader_ep2.xml</File></UpdateDatabase><UpdateColors id="CharlemagneColors"><Criteria>LeaderCriteria</Criteria><File>InGame/Charlemagne_saber_colors.xml</File></UpdateColors><UpdateText id="CharlemagneTextExtra"><Properties><LoadOrder>60</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>Localization/Charlemagne_saber_loc_ingame_extra.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="CharlemagneGameplay"><Criteria>LeaderCriteria</Criteria><File>InGame/Charlemagne_saber_civilization.xml</File><File>InGame/Charlemagne_saber_leader.xml</File><File>Resource/Charlemagne_saber_ui.xml</File></UpdateDatabase><UpdateText id="CharlemagneText"><Criteria>LeaderCriteria</Criteria><File>Localization/Charlemagne_saber_loc_frontend_base.xml</File><File>Localization/Charlemagne_saber_loc_frontend_zhcn.xml</File><File>Localization/Charlemagne_saber_loc_ingame_base.xml</File><File>Localization/Charlemagne_saber_loc_ingame_zhcn.xml</File><File>Localization/Charlemagne_saber_loc_frontend_zhtw.xml</File><File>Localization/Charlemagne_saber_loc_ingame_zhtw.xml</File></UpdateText><UpdateIcons id="CharlemagneIcons"><Criteria>LeaderCriteria</Criteria><File>Resource/Charlemagne_saber_icons.xml</File></UpdateIcons><UpdateArt id="CharlemagneArt"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateLogitechARX id="CharlemagneLogitechARX"><Criteria>LeaderCriteria</Criteria><File>Data/ARX/Civ_LEADER_CHARLEMAGNE_SABER.png</File><File>Data/ARX/Civ_LEADER_CHARLEMAGNE_SABER_EXTRA.png</File></UpdateLogitechARX><UpdateDatabase id="CharlemagneGameplay_XP1"><Properties><LoadOrder>50</LoadOrder></Properties><Criteria>LeaderCriteria_Expansion1</Criteria><File>InGame/Charlemagne_saber_leader_ep1.xml</File></UpdateDatabase><AddUserInterfaces id="CharlemagneUserInterface"><Properties><Context>InGame</Context></Properties><Criteria>LeaderCriteria</Criteria></AddUserInterfaces><UpdateAudio id="CharlemagneAudio"><Criteria>LeaderCriteria</Criteria><File>Platforms/Windows/audio/Charlemagne_Saber_Music_Bank.bnk</File><File>Platforms/Windows/audio/Charlemagne_Saber_Music_Bank.ini</File><File>Platforms/Windows/audio/Charlemagne_Saber_Music_Bank.txt</File></UpdateAudio><ImportFiles id="CharlemagneFile"><Criteria>LeaderCriteria</Criteria></ImportFiles><UpdateDatabase id="CharlemagneGameplay_XP2"><Properties><LoadOrder>50</LoadOrder></Properties><Criteria>LeaderCriteria_Expansion2</Criteria><File>InGame/Charlemagne_saber_leader_ep2.xml</File></UpdateDatabase><UpdateColors id="CharlemagneColors"><Criteria>LeaderCriteria</Criteria><File>InGame/Charlemagne_saber_colors.xml</File></UpdateColors><UpdateText id="CharlemagneTextExtra"><Properties><LoadOrder>60</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>Localization/Charlemagne_saber_loc_ingame_extra.xml</File></UpdateText><UpdateAudio id="CharlemagneAudioMac"><Criteria>LeaderCriteria</Criteria><File>Platforms/MacOS/audio/Charlemagne_Saber_Music_Bank.bnk</File><File>Platforms/MacOS/audio/Charlemagne_Saber_Music_Bank.ini</File><File>Platforms/MacOS/audio/Charlemagne_Saber_Music_Bank.txt</File></UpdateAudio><UpdateDatabase id="CharlemagneGamePlaySQL"><Criteria>LeaderCriteria</Criteria><File>InGame/Charlemagne_saber_leader.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="CharlemagneConfig"><File>FrontEnd/Charlemagne_saber_config.xml</File><File>FrontEnd/Charlemagne_saber_config_ep1.xml</File><File>FrontEnd/Charlemagne_saber_config_ep2.xml</File></UpdateDatabase><UpdateText id="CharlemagneConfigText"><File>Localization/Charlemagne_saber_loc_frontend_base.xml</File><File>Localization/Charlemagne_saber_loc_frontend_zhcn.xml</File><File>Localization/Charlemagne_saber_loc_frontend_zhtw.xml</File><File>Localization/Charlemagne_saber_loc_mod_desc.xml</File></UpdateText><UpdateIcons id="CharlemagneConfigIcons"><File>Resource/Charlemagne_saber_icons.xml</File></UpdateIcons><UpdateArt id="CharlemagneConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="CharlemagneConfigColors"><File>InGame/Charlemagne_saber_colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_CHARLEMAGNE_SABER,StandardPlayers::LEADER_CHARLEMAGNE_SABER_EXTRA,Players:Expansion1_Players::LEADER_CHARLEMAGNE_SABER,Players:Expansion1_Players::LEADER_CHARLEMAGNE_SABER_EXTRA,Players:Expansion2_Players::LEADER_CHARLEMAGNE_SABER,Players:Expansion2_Players::LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_CHARLEMAGNE_SABER,Players:Expansion1_Players::LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_CHARLEMAGNE_SABER,Players:Expansion2_Players::LEADER_CHARLEMAGNE_SABER_EXTRA</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <Homepage>https://steamcommunity.com/id/HaoJun0823/</Homepage>
@@ -26,44 +26,14 @@
   <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
 </Associations>]]></AssociationData>
+    <ModProperties>
+      <CustomProperties />
+    </ModProperties>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Audio\268352164.wem">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\341261676.wem">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\445190152.wem">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\796514192.wem">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\968653451.wem">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\Charlemagne_Saber_Music.lua">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\Charlemagne_Saber_Music.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\Charlemagne_Saber_Music_Bank.bnk">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\Charlemagne_Saber_Music_Bank.ini">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\Charlemagne_Saber_Music_Bank.txt">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Audio\SoundbanksInfo.xml">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Data\ARX\Civ_LEADER_CHARLEMAGNE_SABER.png">
       <SubType>Content</SubType>
     </Content>
@@ -83,6 +53,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="InGame\Charlemagne_saber_colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Charlemagne_saber_leader.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="InGame\Charlemagne_saber_leader.xml">
@@ -118,6 +91,54 @@
     <Content Include="Localization\Charlemagne_saber_loc_mod_desc.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Platforms\MacOS\audio\268352164.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\341261676.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\445190152.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\796514192.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\968653451.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\Charlemagne_Saber_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\Charlemagne_Saber_Music_Bank.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\Charlemagne_Saber_Music_Bank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\268352164.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\341261676.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\445190152.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\796514192.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\968653451.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\Charlemagne_Saber_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\Charlemagne_Saber_Music_Bank.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\Charlemagne_Saber_Music_Bank.txt">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Resource\Charlemagne_saber_icons.xml">
       <SubType>Content</SubType>
     </Content>
@@ -131,7 +152,11 @@
     <Folder Include="Localization" />
     <Folder Include="InGame" />
     <Folder Include="Data" />
-    <Folder Include="Audio" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\MacOS\" />
+    <Folder Include="Platforms\MacOS\audio\" />
+    <Folder Include="Platforms\Windows\" />
+    <Folder Include="Platforms\Windows\audio\" />
     <Folder Include="Resource" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />

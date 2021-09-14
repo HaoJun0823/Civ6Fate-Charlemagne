@@ -17,7 +17,7 @@
 			<Text>展示王勇遍历巡世的十二辉剑</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_ABILITY_CHARLEMAGNE_SABER_DESCRIPTION"  Language="zh_Hans_CN">
-			<Text>额外的一个军事和一个贸易政策卡槽[NEWLINE]每回合 +8 [ICON_Envoy] 影响力点数[NEWLINE]获得的 [ICON_GreatPerson] 多 100%[NEWLINE]所有单位 +4 [ICON_Strength]（额外 +8 对蛮族）[NEWLINE]所有商路 +3 [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science][NEWLINE]所有城市 +30% [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science]</Text>
+			<Text>+12 [ICON_TradeRoute] 商路[NEWLINE]额外的一个军事和一个贸易政策卡槽[NEWLINE]每回合 +8 [ICON_Envoy] 影响力点数[NEWLINE]获得的 [ICON_GreatPerson] 多 100%[NEWLINE]所有单位 +4 [ICON_Strength]（额外 +8 对蛮族）[NEWLINE]所有商路 +4 [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science]（目标城市如果是盟友，则双方额外+2）[NEWLINE]所有城市 +20% [ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science]（首都额外+80%）</Text>
 		</Row>
 
 		<!--
@@ -28,6 +28,10 @@
 
 		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_NAME" Language="zh_Hans_CN">
 			<Text>查理曼的“法兰克”</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_QUOTE" Language="zh_Hans_CN">
+			<Text>我是Saber，查理曼。总之先冷静下来，听听我的话如何？</Text>
 		</Row>
 
 

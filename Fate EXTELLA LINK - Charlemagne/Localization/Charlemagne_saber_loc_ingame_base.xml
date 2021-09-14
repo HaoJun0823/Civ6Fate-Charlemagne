@@ -5,6 +5,47 @@
 <GameData>
 	<BaseGameText>
 
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_TITLE" >
+			<Text>{LOC_LEADER_CHARLEMAGNE_SABER_BLUE_NAME}</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_SUBTITLE" >
+			<Text>Young knight from SE.RA.PH</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_HISTORY_PARA_1" >
+			<Text>Saber's True Name is Charlemagne (シャルルマーニュ, Sharurumānyu), leader and namesake of the Twelve Paladins of Charlemagne. The legend of Charlemagne and his paladins is based off of the real life exploits of Karl der Große. They are both the same Heroic Spirit with the same Saint Graph, but Charlemagne would normally never be summoned due to the real life exploits of Karl far outweighing the fantasy. He is only summoned due to the specific events of the story, but his Saint Graph is registered as a unique existence at the end of the story to allow him to be summoned individually. </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_CAPSULE_BODY" >
+			<Text>Fantasy Charlemagne's abilities are outstanding. He usually has strong economic and military advantages, but he does not like war. If someone can cultivate relationships, he must be a reliable partner.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_DETAILED_BODY" >
+			<Text>Charlemagne's economic and military capabilities are very strong, with the ability to quickly acquire [ICON_Envoy] and [ICON_GreatPerson], as well as some [ICON_Strength] bonuses, quickly establish trade relationships, build cities, gain additional resources, and use Charlemagne more rationally. Characteristics, of course, part of the "Frank Kingdom" ability can not be underestimated, please let him grow handsome!</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_HISTORY_PARA_1" >
+			<Text>Saber's True Name is Charlemagne (シャルルマーニュ, Sharurumānyu), leader and namesake of the Twelve Paladins of Charlemagne. The legend of Charlemagne and his paladins is based off of the real life exploits of Karl der Große. They are both the same Heroic Spirit with the same Saint Graph, but Charlemagne would normally never be summoned due to the real life exploits of Karl far outweighing the fantasy. He is only summoned due to the specific events of the story, but his Saint Graph is registered as a unique existence at the end of the story to allow him to be summoned individually. </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_CAPSULE_BODY" >
+			<Text>Fantasy Charlemagne's abilities are outstanding. He usually has strong economic and military advantages, but he does not like war. If someone can cultivate relationships, he must be a reliable partner.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_DETAILED_BODY" >
+			<Text>Charlemagne's economic and military capabilities are very strong, with the ability to quickly acquire [ICON_Envoy] and [ICON_GreatPerson], as well as some [ICON_Strength] bonuses, quickly establish trade relationships, build cities, gain additional resources, and use Charlemagne more rationally. Characteristics, of course, part of the "Frank Kingdom" ability can not be underestimated, please let him grow handsome!</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_CHAPTER_HISTORY_PARA_1" >
+			<Text>This "Frank Kingdom" comes from Charlemagne's treasure, a moving holy city. With this treasure, he created the "non-existent Frankish kingdom" and based on this world.</Text>
+		</Row>
+
+
 		<Row Tag="LOC_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_DESCRIPTION" >
 			<Text>Handsome "Frankish Kingdom"</Text>
 		</Row>
@@ -396,46 +437,7 @@
 		
 		
 		
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_TITLE" >
-			<Text>{LOC_LEADER_CHARLEMAGNE_SABER_BLUE_NAME}</Text>
-		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_SUBTITLE" >
-			<Text>Young knight from SE.RA.PH</Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_QUOTE" >
-			<Text>I am Saber, Charlemagne. In short, calm down first, how about listening to me?</Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_HISTORY_PARA_1" >
-			<Text>Saber's True Name is Charlemagne (シャルルマーニュ, Sharurumānyu), leader and namesake of the Twelve Paladins of Charlemagne. The legend of Charlemagne and his paladins is based off of the real life exploits of Karl der Große. They are both the same Heroic Spirit with the same Saint Graph, but Charlemagne would normally never be summoned due to the real life exploits of Karl far outweighing the fantasy. He is only summoned due to the specific events of the story, but his Saint Graph is registered as a unique existence at the end of the story to allow him to be summoned individually. </Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_CAPSULE_BODY" >
-			<Text>Fantasy Charlemagne's abilities are outstanding. He usually has strong economic and military advantages, but he does not like war. If someone can cultivate relationships, he must be a reliable partner.</Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_CHAPTER_DETAILED_BODY" >
-			<Text>Charlemagne's economic and military capabilities are very strong, with the ability to quickly acquire [ICON_Envoy] and [ICON_GreatPerson], as well as some [ICON_Strength] bonuses, quickly establish trade relationships, build cities, gain additional resources, and use Charlemagne more rationally. Characteristics, of course, part of the "Frank Kingdom" ability can not be underestimated, please let him grow handsome!</Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_HISTORY_PARA_1" >
-			<Text>Saber's True Name is Charlemagne (シャルルマーニュ, Sharurumānyu), leader and namesake of the Twelve Paladins of Charlemagne. The legend of Charlemagne and his paladins is based off of the real life exploits of Karl der Große. They are both the same Heroic Spirit with the same Saint Graph, but Charlemagne would normally never be summoned due to the real life exploits of Karl far outweighing the fantasy. He is only summoned due to the specific events of the story, but his Saint Graph is registered as a unique existence at the end of the story to allow him to be summoned individually. </Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_CAPSULE_BODY" >
-			<Text>Fantasy Charlemagne's abilities are outstanding. He usually has strong economic and military advantages, but he does not like war. If someone can cultivate relationships, he must be a reliable partner.</Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_EXTRA_CHAPTER_DETAILED_BODY" >
-			<Text>Charlemagne's economic and military capabilities are very strong, with the ability to quickly acquire [ICON_Envoy] and [ICON_GreatPerson], as well as some [ICON_Strength] bonuses, quickly establish trade relationships, build cities, gain additional resources, and use Charlemagne more rationally. Characteristics, of course, part of the "Frank Kingdom" ability can not be underestimated, please let him grow handsome!</Text>
-		</Row>
-
-
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CHARLEMAGNE_SABER_FRANCIA_CHAPTER_HISTORY_PARA_1" >
-			<Text>This "Frank Kingdom" comes from Charlemagne's treasure, a moving holy city. With this treasure, he created the "non-existent Frankish kingdom" and based on this world.</Text>
-		</Row>
 
 		
 
@@ -489,5 +491,15 @@
 
 
 	</BaseGameText>
+
+	<!-- Try fix  Missing named argument or text key -->
+	<!--
+	<LocalizedText>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CHARLEMAGNE_SABER_QUOTE" Language="en_US" >
+		<Text>I am Saber, Charlemagne. In short, calm down first, how about listening to me?</Text>
+	</Row>
+	</LocalizedText>
+	-->
+
 
 </GameData>
